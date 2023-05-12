@@ -20,7 +20,7 @@ namespace Wolf
             chicken4.Image.RotateFlip(RotateFlipType.RotateNoneFlipX);
             catched_eggs.Visible = false;
             not_catched_eggs.Visible = false;
-            sp = new (Resources.sound);
+            sp = new(Resources.sound);
         }
 
 
@@ -83,7 +83,7 @@ namespace Wolf
                         break;
                     case Keys.Escape:
                         timer1.Stop();
-                        var res =  MessageBox.Show("Бажаєте закінчити ?","Вихід",MessageBoxButtons.YesNo,MessageBoxIcon.Question,MessageBoxDefaultButton.Button2);
+                        var res = MessageBox.Show("Бажаєте закінчити ?", "Вихід", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
                         if (res == DialogResult.Yes) Close();
                         timer1.Start();
                         break;

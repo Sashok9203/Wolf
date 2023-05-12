@@ -167,6 +167,8 @@
             ImeMode = ImeMode.On;
             KeyPreview = true;
             MaximizeBox = false;
+            MaximumSize = new Size(456, 437);
+            MinimumSize = new Size(456, 437);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Ну постривай ! ! !";
