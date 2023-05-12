@@ -81,6 +81,12 @@ namespace Wolf
                             wolf.Image.RotateFlip(RotateFlipType.RotateNoneFlipX);
                         }
                         break;
+                    case Keys.Escape:
+                        timer1.Stop();
+                        var res =  MessageBox.Show("Бажаєте закінчити ?","Вихід",MessageBoxButtons.YesNo,MessageBoxIcon.Question,MessageBoxDefaultButton.Button2);
+                        if (res == DialogResult.Yes) Close();
+                        timer1.Start();
+                        break;
                 }
 
                 wolf.Refresh();
