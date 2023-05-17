@@ -114,7 +114,7 @@
             startButton.Name = "startButton";
             startButton.Size = new Size(94, 32);
             startButton.TabIndex = 5;
-            startButton.Text = "Старт";
+            startButton.Text = "Start";
             startButton.UseVisualStyleBackColor = false;
             startButton.Click += startButton_Click;
             // 
@@ -171,7 +171,7 @@
             MinimumSize = new Size(456, 437);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Ну постривай ! ! !";
+            Text = "Well, hang on ! ! !";
             KeyDown += Form1_KeyDown;
             ((System.ComponentModel.ISupportInitialize)wolf).EndInit();
             ((System.ComponentModel.ISupportInitialize)chicken1).EndInit();
