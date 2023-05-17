@@ -34,8 +34,8 @@ namespace Wolf
             timer1.Start();
             catched_eggs.Visible = true;
             not_catched_eggs.Visible = true;
-            catched_eggs.Text = $"Спіймано : {catched}";
-            not_catched_eggs.Text = $"Розбито    : {broken}";
+            catched_eggs.Text = $"Catched : {catched}";
+            not_catched_eggs.Text = $"Broken  : {broken}";
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
@@ -83,7 +83,7 @@ namespace Wolf
                         break;
                     case Keys.Escape:
                         timer1.Stop();
-                        var res = MessageBox.Show("Бажаєте закінчити ?", "Вихід", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
+                        var res = MessageBox.Show("Do you wont to exit ?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
                         if (res == DialogResult.Yes) Close();
                         timer1.Start();
                         break;
@@ -102,7 +102,7 @@ namespace Wolf
                 count++;
                 if (count >= 100)
                 {
-                    eggs.Add(new Egg(this, () => not_catched_eggs.Text = $"Розбито    : {++broken}"));
+                    eggs.Add(new Egg(this, () => not_catched_eggs.Text = $"Broken  : {++broken}"));
                     count = 0;
                 }
             }
@@ -118,7 +118,7 @@ namespace Wolf
                         || (val.StartLocation == Egg.Location.RightDown && right && down))
                     {
                         sp.PlaySync();
-                        catched_eggs.Text = $"Спіймано : {++catched}";
+                        catched_eggs.Text = $"Catched : {++catched}";
                         val.Dispose();
                         val.Refrash();
 
