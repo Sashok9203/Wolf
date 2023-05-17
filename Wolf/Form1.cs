@@ -34,7 +34,7 @@ namespace Wolf
             timer1.Start();
             catched_eggs.Visible = true;
             not_catched_eggs.Visible = true;
-            catched_eggs.Text = $"Catched : {catched}";
+            catched_eggs.Text = $"Спіймано : {catched}";
             not_catched_eggs.Text = $"Broken  : {broken}";
         }
 
