@@ -58,6 +58,233 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="wolf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 111</value>
+  </data>
+  <data name="wolf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 286</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="wolf.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="wolf.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;wolf.Name" xml:space="preserve">
+    <value>wolf</value>
+  </data>
+  <data name="&gt;&gt;wolf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;wolf.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;wolf.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chicken1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-11, 57</value>
+  </data>
+  <data name="chicken1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 73</value>
+  </data>
+  <data name="chicken1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="chicken1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chicken1.Name" xml:space="preserve">
+    <value>chicken1</value>
+  </data>
+  <data name="&gt;&gt;chicken1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chicken1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chicken1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chicken2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-11, 174</value>
+  </data>
+  <data name="chicken2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 73</value>
+  </data>
+  <data name="chicken2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="chicken2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chicken2.Name" xml:space="preserve">
+    <value>chicken2</value>
+  </data>
+  <data name="&gt;&gt;chicken2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chicken2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chicken2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chicken3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>379, 57</value>
+  </data>
+  <data name="chicken3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 73</value>
+  </data>
+  <data name="chicken3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="chicken3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chicken3.Name" xml:space="preserve">
+    <value>chicken3</value>
+  </data>
+  <data name="&gt;&gt;chicken3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chicken3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chicken3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chicken4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>379, 174</value>
+  </data>
+  <data name="chicken4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 73</value>
+  </data>
+  <data name="chicken4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="chicken4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chicken4.Name" xml:space="preserve">
+    <value>chicken4</value>
+  </data>
+  <data name="&gt;&gt;chicken4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chicken4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chicken4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="startButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="startButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="startButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 28</value>
+  </data>
+  <data name="startButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 32</value>
+  </data>
+  <data name="startButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="startButton.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="&gt;&gt;startButton.Name" xml:space="preserve">
+    <value>startButton</value>
+  </data>
+  <data name="&gt;&gt;startButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;startButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;startButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="catched_eggs.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="catched_eggs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14pt, style=Bold</value>
+  </data>
+  <data name="catched_eggs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 9</value>
+  </data>
+  <data name="catched_eggs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 25</value>
+  </data>
+  <data name="catched_eggs.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="catched_eggs.Text" xml:space="preserve">
+    <value>text</value>
+  </data>
+  <data name="&gt;&gt;catched_eggs.Name" xml:space="preserve">
+    <value>catched_eggs</value>
+  </data>
+  <data name="&gt;&gt;catched_eggs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;catched_eggs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;catched_eggs.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="not_catched_eggs.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="not_catched_eggs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14pt, style=Bold</value>
+  </data>
+  <data name="not_catched_eggs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 45</value>
+  </data>
+  <data name="not_catched_eggs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 25</value>
+  </data>
+  <data name="not_catched_eggs.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="not_catched_eggs.Text" xml:space="preserve">
+    <value>text</value>
+  </data>
+  <data name="&gt;&gt;not_catched_eggs.Name" xml:space="preserve">
+    <value>not_catched_eggs</value>
+  </data>
+  <data name="&gt;&gt;not_catched_eggs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;not_catched_eggs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;not_catched_eggs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>440, 398</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAAAAAAAEAIABnpQAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAEAAAABAAgGAAAAXHKoZgAAAAFv
@@ -769,255 +996,31 @@
         RK5CYII=
 </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="chicken4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="wolf.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 286</value>
-  </data>
-  <data name="&gt;&gt;chicken3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;not_catched_eggs.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Form1</value>
-  </data>
-  <data name="chicken4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 73</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="wolf.Location" type="System.Drawing.Point, System.Drawing">
-    <value>94, 111</value>
-  </data>
-  <data name="startButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>170, 28</value>
-  </data>
-  <data name="startButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt, style=Bold</value>
-  </data>
-  <data name="catched_eggs.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 14pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;wolf.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="chicken4.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="not_catched_eggs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 45</value>
-  </data>
-  <data name="chicken1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-11, 57</value>
-  </data>
-  <data name="chicken4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>379, 174</value>
-  </data>
-  <data name="&gt;&gt;wolf.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>440, 398</value>
-  </data>
-  <data name="chicken1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;startButton.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="chicken1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="&gt;&gt;chicken2.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;chicken1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="startButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="chicken3.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;catched_eggs.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="not_catched_eggs.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 14pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;catched_eggs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="chicken3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>379, 57</value>
-  </data>
-  <data name="&gt;&gt;startButton.Name" xml:space="preserve">
-    <value>startButton</value>
-  </data>
-  <data name="chicken2.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;chicken1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;chicken2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="startButton.Text" xml:space="preserve">
-    <value>Start</value>
-  </data>
-  <data name="&gt;&gt;chicken1.Name" xml:space="preserve">
-    <value>chicken1</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>456, 437</value>
-  </data>
-  <data name="chicken3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="startButton.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;chicken4.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;not_catched_eggs.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="not_catched_eggs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 25</value>
-  </data>
-  <data name="catched_eggs.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;catched_eggs.Name" xml:space="preserve">
-    <value>catched_eggs</value>
-  </data>
-  <data name="not_catched_eggs.Text" xml:space="preserve">
-    <value>text</value>
-  </data>
-  <data name="not_catched_eggs.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="not_catched_eggs.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;wolf.Name" xml:space="preserve">
-    <value>wolf</value>
-  </data>
-  <data name="&gt;&gt;not_catched_eggs.Name" xml:space="preserve">
-    <value>not_catched_eggs</value>
-  </data>
-  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
-    <value>timer1</value>
-  </data>
-  <data name="&gt;&gt;chicken3.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="startButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 32</value>
-  </data>
   <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>On</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Well, hang on ! ! !</value>
-  </data>
-  <data name="chicken2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-11, 174</value>
-  </data>
-  <data name="&gt;&gt;chicken4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chicken2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;chicken3.Name" xml:space="preserve">
-    <value>chicken3</value>
-  </data>
-  <data name="&gt;&gt;startButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="catched_eggs.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;chicken4.Name" xml:space="preserve">
-    <value>chicken4</value>
-  </data>
-  <data name="catched_eggs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 25</value>
-  </data>
-  <data name="chicken1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 73</value>
-  </data>
-  <data name="&gt;&gt;chicken1.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;wolf.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;not_catched_eggs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="catched_eggs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 9</value>
-  </data>
-  <data name="&gt;&gt;startButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="chicken2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 73</value>
   </data>
   <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>456, 437</value>
   </data>
-  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>456, 437</value>
   </data>
-  <data name="chicken3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 73</value>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
-  <data name="catched_eggs.Text" xml:space="preserve">
-    <value>text</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Well, hang on ! ! !</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;chicken2.Name" xml:space="preserve">
-    <value>chicken2</value>
-  </data>
-  <data name="&gt;&gt;catched_eggs.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;chicken3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;chicken4.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="chicken2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="wolf.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="wolf.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
 </root>

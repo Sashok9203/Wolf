@@ -50,55 +50,40 @@
             // 
             wolf.BackColor = Color.Transparent;
             wolf.Image = Properties.Resources.wolf_down;
-            wolf.Location = new Point(94, 111);
+            resources.ApplyResources(wolf, "wolf");
             wolf.Name = "wolf";
-            wolf.Size = new Size(258, 286);
-            wolf.SizeMode = PictureBoxSizeMode.StretchImage;
-            wolf.TabIndex = 0;
             wolf.TabStop = false;
             // 
             // chicken1
             // 
             chicken1.BackColor = Color.Transparent;
             chicken1.Image = Properties.Resources.chicken;
-            chicken1.Location = new Point(-11, 57);
+            resources.ApplyResources(chicken1, "chicken1");
             chicken1.Name = "chicken1";
-            chicken1.Size = new Size(76, 73);
-            chicken1.SizeMode = PictureBoxSizeMode.StretchImage;
-            chicken1.TabIndex = 1;
             chicken1.TabStop = false;
             // 
             // chicken2
             // 
             chicken2.BackColor = Color.Transparent;
             chicken2.Image = Properties.Resources.chicken;
-            chicken2.Location = new Point(-11, 174);
+            resources.ApplyResources(chicken2, "chicken2");
             chicken2.Name = "chicken2";
-            chicken2.Size = new Size(76, 73);
-            chicken2.SizeMode = PictureBoxSizeMode.StretchImage;
-            chicken2.TabIndex = 2;
             chicken2.TabStop = false;
             // 
             // chicken3
             // 
             chicken3.BackColor = Color.Transparent;
             chicken3.Image = Properties.Resources.chicken;
-            chicken3.Location = new Point(379, 57);
+            resources.ApplyResources(chicken3, "chicken3");
             chicken3.Name = "chicken3";
-            chicken3.Size = new Size(76, 73);
-            chicken3.SizeMode = PictureBoxSizeMode.StretchImage;
-            chicken3.TabIndex = 3;
             chicken3.TabStop = false;
             // 
             // chicken4
             // 
             chicken4.BackColor = Color.Transparent;
             chicken4.Image = Properties.Resources.chicken;
-            chicken4.Location = new Point(379, 174);
+            resources.ApplyResources(chicken4, "chicken4");
             chicken4.Name = "chicken4";
-            chicken4.Size = new Size(76, 73);
-            chicken4.SizeMode = PictureBoxSizeMode.StretchImage;
-            chicken4.TabIndex = 4;
             chicken4.TabStop = false;
             // 
             // startButton
@@ -107,14 +92,9 @@
             startButton.FlatAppearance.BorderSize = 2;
             startButton.FlatAppearance.MouseDownBackColor = Color.Transparent;
             startButton.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            startButton.FlatStyle = FlatStyle.Popup;
-            startButton.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            resources.ApplyResources(startButton, "startButton");
             startButton.ForeColor = Color.FromArgb(255, 255, 128);
-            startButton.Location = new Point(170, 28);
             startButton.Name = "startButton";
-            startButton.Size = new Size(94, 32);
-            startButton.TabIndex = 5;
-            startButton.Text = "Start";
             startButton.UseVisualStyleBackColor = false;
             startButton.Click += startButton_Click;
             // 
@@ -124,36 +104,24 @@
             // 
             // catched_eggs
             // 
-            catched_eggs.AutoSize = true;
+            resources.ApplyResources(catched_eggs, "catched_eggs");
             catched_eggs.BackColor = Color.Transparent;
-            catched_eggs.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
             catched_eggs.ForeColor = Color.Yellow;
-            catched_eggs.Location = new Point(131, 9);
             catched_eggs.Name = "catched_eggs";
-            catched_eggs.Size = new Size(47, 25);
-            catched_eggs.TabIndex = 6;
-            catched_eggs.Text = "text";
             // 
             // not_catched_eggs
             // 
-            not_catched_eggs.AutoSize = true;
+            resources.ApplyResources(not_catched_eggs, "not_catched_eggs");
             not_catched_eggs.BackColor = Color.Transparent;
-            not_catched_eggs.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
             not_catched_eggs.ForeColor = Color.SkyBlue;
-            not_catched_eggs.Location = new Point(131, 45);
             not_catched_eggs.Name = "not_catched_eggs";
-            not_catched_eggs.Size = new Size(47, 25);
-            not_catched_eggs.TabIndex = 7;
-            not_catched_eggs.Text = "text";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             BackgroundImage = Properties.Resources.Фон_для_Ну_Погоди;
-            BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(440, 398);
             Controls.Add(not_catched_eggs);
             Controls.Add(catched_eggs);
             Controls.Add(startButton);
@@ -163,15 +131,9 @@
             Controls.Add(chicken1);
             Controls.Add(wolf);
             DoubleBuffered = true;
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            ImeMode = ImeMode.On;
             KeyPreview = true;
             MaximizeBox = false;
-            MaximumSize = new Size(456, 437);
-            MinimumSize = new Size(456, 437);
             Name = "Form1";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Well, hang on ! ! !";
             KeyDown += Form1_KeyDown;
             ((System.ComponentModel.ISupportInitialize)wolf).EndInit();
             ((System.ComponentModel.ISupportInitialize)chicken1).EndInit();
